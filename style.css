@@ -1,0 +1,132 @@
+*{
+    margin: 0 0;
+    padding: 0 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+}
+
+.calculator-app{
+    height: 520px;
+    width: 600px;
+    background-color:black;
+    margin-top: 100px;
+    border-radius: 0.5rem ;
+    box-shadow: 5px 5px 5px 5px #777;
+}
+
+.app-header{
+    background-color: #999;
+    text-align: center;
+    padding: 1rem;
+    font-size: 2rem;
+    color: rgb(0, 0, 0);
+}
+
+
+label{
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+}
+input{
+    margin: 10px 0;
+    padding: 14px 30px ;
+    font-size: 17px;
+}
+
+.input-boxes{
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+.math-buttons{
+margin-left: auto;
+margin-right: auto;
+width: fit-content;
+display: flex;
+align-items: center;
+gap: 22px;
+
+}
+
+.add{
+    color:yellow;
+    background-color: #3A4655;
+    border: none;
+    font-size: 18px;
+}
+.sub{
+    color:yellow;
+    background-color: #3A4655;
+    border: none;
+    font-size: 18px;
+}
+.mul{
+    color:yellow;
+    background-color: #3A4655;
+    border: none;
+    font-size: 18px;
+}
+.div{
+    color:yellow;
+    background-color: #3A4655;
+    border: none;
+    font-size: 18px;
+}
+.mod{
+    color:yellow;
+    background-color: #3A4655;
+    border: none;
+    font-size: 18px;
+}
+
+.math-buttons button{
+    padding: 7px 12px;
+    
+}
+
+.ac{
+    background-color:skyblue ;
+    border: 1px solid ;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.result{
+    height: 80px;
+    width: 380px;
+    background-color:#3A4655;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 75px;
+    font-size: 2rem;
+ 
+}
+
+.result-head{
+    background-color:#777;
+    color: orange;
+    width: 100%;
+    height: 28px;
+    text-align: center;
+    font-size: 19px;
+    font-weight: 500;
+}
+
+.result-text{
+    text-align: center;
+    font-weight: 600;
+    font-size: 2.2rem;
+    margin-top: 3px;
+    word-wrap: break-word;
+}
+
